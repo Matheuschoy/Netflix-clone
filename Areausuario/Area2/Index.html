@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css"> <!-- Atalho CSS -->
+
+    <!-- RESPONSIVIDADE -->
+    <link rel="stylesheet" href="responsive.css">
+
+    <!--owl CSS-->
+    <link rel="stylesheet" href="Img/owl.carousel.min.css">
+    <link rel="stylesheet" href="Img/owl.theme.default.min.css">
+
+
+    <title>NETFLIX CLONE</title>
+</head>
+<body>
+     <header>                   <!-- CABEÇALHO -->
+        <div class="container">
+            <h2 class="logo">NETFLIX</h2>
+            <nav>               <!-- LINKS tag <nav> usada para links -->  
+                <a href="#">Início</a> 
+                <a href="#">Series</a> 
+                <a href="#">Filmes</a> 
+                <a href="#">Documentários</a> 
+            </nav>
+        </div>
+     </header>
+
+     <main>
+         <div class="filme-principal">
+             <div class="container">
+                 <h3 class="titulo">GAME OF THRONES</h3>
+                 <p class="descricao">Em uma terra onde os verões podem durar vários anos e o inverno toda uma vida, sete nobres famílias lutam pelo controle da mítica terra de Westeros, dividida depois de uma guerra. Num cenário que lembra a Europa medieval, reis, rainhas, cavaleiros e renegados usam todos os meios possíveis em um jogo político pela disputa do Trono de Ferro, o símbolo do poder absoluto.</p>
+                 <div class="botoes">
+                    <button role="button" class="botao" onclick="botao1"> <!-- role="button"  Indica que é um botao para todas as plataformas-->
+                        <i class="fas fa-play"></i>
+                        ASSISTIR AGORA
+                    </button>
+                    <button role="button" class="botao">
+                        <i class="fas fa-info-circle"></i>
+                        MAIS INFORMAÇÕES
+                    </button>
+                </div>             
+             </div>             
+         </div>
+     </main>
+
+
+     <div class="carrosel-filmes">
+         <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-filme" src="Img/Caroselimg/loki.jpg" srcset="" ondblclick="descloki()">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="Img/Caroselimg/miranha.jpg" srcset="" ondblclick="descmiranha()">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="Img/Caroselimg/peaky.jpg" srcset="" ondblclick="descpeaky()">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="Img/Caroselimg/eternos.jpg" srcset="" ondblclick="desceternos()">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="Img/Caroselimg/mrrobot.jpg" srcset="" ondblclick="descmrrobot()">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="Img/Caroselimg/rick.jpg" srcset="" ondblclick="descrick()">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="Img/Caroselimg/see.jpg" srcset="" ondblclick="descsee()">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="Img/Caroselimg/viuva.jpg" srcset="" ondblclick="descviuva()">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="Img/Caroselimg/witcher.jpg" srcset="" ondblclick="descwitcher()">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="Img/Caroselimg/interstellar.jpg" srcset="" ondblclick="descinterstellar()">
+            </div>
+         </div>
+     </div>
+
+     
+
+     <script src="https://kit.fontawesome.com/e2741d1ec1.js" crossorigin="anonymous"></script>
+     <script src="Js owl/jquery.min.js"></script>
+     <script src="Js owl/owl.carousel.min.js"></script>
+
+     <script src="Js owl/Setup.js"></script>
+
+</body>
+</html>
